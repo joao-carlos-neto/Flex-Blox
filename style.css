@@ -1,0 +1,269 @@
+/* Configurações Iniciais */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+div img {
+    display: block;
+    width: 90%;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+text-decoration: none;
+}
+
+.flex-cont {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+}
+
+/* Configurações Iniciais */
+
+/*Estilização Header*/
+
+header {
+    background-color: #122A57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+header .menu {
+    justify-content: space-between;
+}
+
+
+header .list-items {
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-items a {
+    color: white;
+}
+
+
+
+/*Fim da Estlização Header*/
+
+/*Estilização Div-1*/
+
+.apresent {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.texto-apresent {
+  min-height: 200px;
+}
+.texto-apresent h1 {
+    color: #122A57;
+    font-size: 49px;
+    margin-bottom: 10px;
+}
+.texto-apresent a {
+    display: block;
+    text-decoration: none;
+    background-color: #122A57;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+/*Fim da Estilização Div-1*/
+
+/*Estilização Div-2*/
+
+#quem-somos {
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 230px; 
+}
+#quem-somos h2 {
+    font-size: 38px;
+    color: #122A57;
+    display: flex; 
+    margin-bottom: 35px;
+}
+#quem-somos h2::before {
+    content: "";
+    height: 48px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122A57;
+    position: relative;
+}
+#quem-somos p {
+    color: #122A57;
+    margin-bottom: 10px;
+    width: 90%;
+}
+#quem-somos img {
+    width: auto;
+    margin-right: 80px;
+}
+
+/*Fim da Estilização Div-2*/
+
+/* Estilização Div-3 */
+
+.cont-serv {
+    background: #122A57;
+    width: 100%; 
+}
+#serv {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#serv h2 {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 100px;
+}
+.lista-serv {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Erro de Div */
+.item-serv {
+    text-align: center;
+}
+.item-serv img {
+    margin-bottom: 45px;
+}    
+.item-serv p {
+    margin-bottom: 45px;
+    color: white;
+    font-size: 18px;
+}
+.item-serv a {
+    display: block; 
+    min-width: 220px;
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #122A57;
+}        
+/* Fim de Erro de Div */
+
+/* Fim da Estilização Div-3 */
+
+/* Estilização Div-4 */
+
+#planos {
+    min-height: 800px;
+    flex-direction: column; 
+}
+.lista-plano {
+    display: flex; 
+    align-items: flex-end; 
+    justify-content: center; 
+    height: 500px; 
+}
+.item-plano {
+   border: 3px solid #122A57;
+   flex: 1; 
+   text-align: center;  
+   margin-right: 20px;
+   padding: 10px;
+}
+.btn {
+    display: block;
+    text-decoration: none;
+    background-color: #122A57;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    margin: 35px;
+}
+.item-plano h3 {
+    font-size: 25px; 
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+}
+.item-plano h3::after {
+   content: "";
+   background: #122A57;
+   width: 100%; 
+   height: 3px;
+   margin-top: 15px; 
+   margin-bottom: 15px; 
+}
+.item-plano ul {
+    padding: 10px 20px; 
+}
+.item-plano ul li {
+    display: flex;
+    align-items: center;
+}
+    
+.item-plano ul li::before {
+    content: ""; 
+    background: #122A57;
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+}
+
+.titulo {
+    display: flex;
+    color: #122A57;
+    margin-top: 100px;
+    font-size: 28px; 
+}
+
+.titulo::before {
+    content: "";
+    background: #122A57;
+    width: 4px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Fim da Estilização Div-4 */
+
+/* Estilização Footer*/
+
+footer {
+    background: #122A57;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+footer .paragr {
+    justify-content: space-between;
+    color: white;
+}
+
+/* Fim da Estilização Footer */
+
